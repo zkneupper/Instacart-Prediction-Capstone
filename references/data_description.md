@@ -1,5 +1,3 @@
-<script src="https://gist.github.com/jeremystan/c3b39d947d9b88b3ccff3147dbcf6c6b.js"></script>
-
 `orders` (3.4m rows, 206k users):
 * `order_id`: order identifier
 * `user_id`: customer identifier
@@ -33,3 +31,7 @@ where `SET` is one of the four following evaluation sets (`eval_set` in `orders`
 * `"prior"`: orders prior to that users most recent order (~3.2m orders)
 * `"train"`: training data supplied to participants (~131k orders)
 * `"test"`: test data reserved for machine learning competitions (~75k orders)
+
+-----------------------------------
+
+See the original source of this data description [here](https://gist.github.com/jeremystan/c3b39d947d9b88b3ccff3147dbcf6c6b).
