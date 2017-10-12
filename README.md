@@ -25,8 +25,7 @@ My analysis is based on “The Instacart Online Grocery Shopping Dataset 2017”
 [References](#references)  
 [Acknowledgements](#acknowledgements)
 
-
-==============================
+------------
 
 ## Project Organization
 ------------
@@ -87,6 +86,6 @@ My analysis is based on “The Instacart Online Grocery Shopping Dataset 2017”
 ...
 
 
-
+------------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
