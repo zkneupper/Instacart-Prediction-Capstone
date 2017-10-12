@@ -1,9 +1,34 @@
-Instacart-Prediction-Capstone
+![Instacart_logo](images/Instacart_logo_and_wordmark.svg.png)
+
+Predicting Behavior of Instacart Shoppers
+==========================================
+
+This repo contains the documentation for my second capstone project at [Springboard](https://www.springboard.com/workshops/data-science-career-track).  The goal of this capstone project is to use machine learning techniques to predict the consumer behavior of Instacart shoppers.
+
+
+My analysis is based on “The Instacart Online Grocery Shopping Dataset 2017”, accessed from https://www.instacart.com/datasets/grocery-shopping-2017 on June 25, 2017.  This is an open sourced dataset of 3 million Instacart orders.
+
+
+------------
+
+## Table of Contents
+
+[Project Organization](#project-organization)  
+[Background](#background)  
+[Objective](#objective)  
+[Process Overview and Flow](#process-overview-and-flow)   
+[EDA and Data Mining](#eda-and-data-mining)  
+[Method](#method)   
+[Measures](#measures)  
+[Results](#results)   
+[Next Steps](#next-steps)  
+[References](#references)  
+[Acknowledgements](#acknowledgements)
+
+
 ==============================
 
-Capstone Project: Using machine learning to predict the consumer behavior of Instacart shoppers.
-
-Project Organization
+## Project Organization
 ------------
 
     ├── LICENSE
@@ -52,5 +77,16 @@ Project Organization
 
 
 --------
+
+## Background
+
+...
+
+...
+
+...
+
+
+
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
