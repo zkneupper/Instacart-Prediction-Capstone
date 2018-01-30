@@ -2,7 +2,7 @@ import os
 import sys
 import sqlite3
 from sqlalchemy import create_engine
-#from sqlalchemy.engine.reflection import Inspector
+from sqlalchemy.engine.reflection import Inspector
 import csv
 import pandas as pd
 from shutil import copy2
