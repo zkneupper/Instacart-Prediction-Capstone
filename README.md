@@ -4,10 +4,13 @@
 Predicting Behavior of Instacart Shoppers
 ==========================================
 
+[Kaggle.com](kaggle.com) recently hosted the Instacart Market Basket Analysis competition.  The goal of this competition was to predict what grocery items Instacart each users will reorder based on the user’s purchase history.
 
+Kazuki Onodera, a data scientist at Yahoo! JAPAN, won second place in the competition.  Onodera was able to take the original dataset and engineer some strongly predictive new features.  
 
-...
+In this project, I engineered a subset of the most important features identified by Onodera.  I trained a gradient boosting model to predict whether a user will reorder an item that they previously ordered.  I also performed a grid search to find an optimal decision threshold so as to maximize the F1 score of our predictive model.
 
+I was able to to achieve a mean best cross-validated F1 score of 0.31 and a mean cross-validated ROC AUC score 0.79.
 
 ------------
 
@@ -18,10 +21,7 @@ Keywords:  Consumer behavior; Machine learning; Gradient boosting; XGBoost
 
 ## Table of Contents
 
-[Background](#background)  
-[The Dataset](#the-dataset)  
 [Process Overview and Tech Stack](#process-overview-and-tech-stack)   
-[Results](#results)   
 [Final Report](#final-report)   
 [GitHub Folder Structure](#github-folder-structure)  
 [References](#references)  
@@ -29,54 +29,9 @@ Keywords:  Consumer behavior; Machine learning; Gradient boosting; XGBoost
 
 ------------
 
-
-------------
-
-
-
-
-------------
-
-
-This repo contains the documentation for my second capstone project at [Springboard](https://www.springboard.com/workshops/data-science-career-track).  The goal of this capstone project is to use machine learning techniques to predict the consumer behavior of Instacart shoppers.
-
-
-My analysis is based on “The Instacart Online Grocery Shopping Dataset 2017”, accessed from https://www.instacart.com/datasets/grocery-shopping-2017 on June 25, 2017.  This is an open sourced dataset of 3 million Instacart orders.
-
-
-------------
-
-## Table of Contents
-
-[Project Organization](#project-organization)  
-[Background](#background)  
-[Objective](#objective)  
-[Process Overview and Flow](#process-overview-and-flow)   
-[EDA and Data Mining](#eda-and-data-mining)  
-[Method](#method)   
-[Measures](#measures)  
-[Results](#results)   
-[Next Steps](#next-steps)  
-[References](#references)  
-[Acknowledgements](#acknowledgements)
-
-------------
-
-## Project Organization
-------------
-
-------------
-
 ## Process Overview and Tech Stack
 
 ![tech-stack](reports/images/tech-stack.png)
-
-------------
-
-## Results
-
-......
-
 
 ------------
 
@@ -118,19 +73,6 @@ The final report for the project can be found [here](https://github.com/zkneuppe
             │                 predictions
             ├── predict_model.py
             └── train_model.py
-
-
---------
-
-## Background
-
-...
-
-...
-
-...
-
-
 
 ------------
 
