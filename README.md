@@ -10,7 +10,7 @@ Kazuki Onodera, a data scientist at Yahoo! JAPAN, won second place in the compet
 
 In this project, I engineered a subset of the most important features identified by Onodera.  I trained a gradient boosting model to predict whether a user will reorder an item that they previously ordered.  I also performed a grid search to find an optimal decision threshold so as to maximize the F1 score of our predictive model.
 
-I was able to to achieve a mean best cross-validated F1 score of 0.31 and a mean cross-validated ROC AUC score 0.79.
+I was able to to achieve a mean best cross-validated F1 score of 0.12 and a mean cross-validated ROC AUC score 0.79.
 
 ------------
 
