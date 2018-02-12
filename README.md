@@ -4,7 +4,7 @@
 Predicting Behavior of Instacart Shoppers
 ==========================================
 
-[Kaggle.com](kaggle.com) recently hosted the Instacart Market Basket Analysis competition.  The goal of this competition was to predict what grocery items Instacart each users will reorder based on the user’s purchase history.
+[Kaggle.com](kaggle.com) recently hosted the Instacart Market Basket Analysis competition.  The goal of this competition was to predict what grocery items each Instacart user will reorder based on the user's purchase history.
 
 Kazuki Onodera, a data scientist at Yahoo! JAPAN, won second place in the competition.  Onodera was able to take the original dataset and engineer some strongly predictive new features.  
 
