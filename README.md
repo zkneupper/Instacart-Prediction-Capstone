@@ -1,4 +1,4 @@
-![tech-stack](reports/images/Instacart_logo_and_wordmark.svg.png)
+![logo](reports/images/Instacart_logo_and_wordmark.svg.png)
 
 
 Predicting Behavior of Instacart Shoppers
@@ -8,9 +8,9 @@ Predicting Behavior of Instacart Shoppers
 
 Kazuki Onodera, a data scientist at Yahoo! JAPAN, won second place in the competition.  Onodera was able to take the original dataset and engineer some strongly predictive new features.  
 
-In this project, I engineered a subset of the most important features identified by Onodera.  I trained a gradient boosting model to predict whether a user will reorder an item that they previously ordered.  I also performed a grid search to find an optimal decision threshold so as to maximize the F1 score of our predictive model.
+In this project, I engineered a subset of the most important features identified by Onodera.  I trained a gradient boosting model to predict the probability that a user will reorder any given product that they had previously ordered.  
 
-I was able to to achieve a mean best cross-validated F1 score of 0.12 and a mean cross-validated ROC AUC score 0.79.
+I was able to achieve a mean cross-validated ROC AUC score of 0.79.
 
 ------------
 
@@ -35,9 +35,9 @@ Keywords:  Consumer behavior; Machine learning; Gradient boosting; XGBoost
 
 ------------
 
-## Final Report
+## Final Slide Deck and Final Report
 
-The final report for the project can be found [here](https://github.com/zkneupper/Instacart-Prediction-Capstone/tree/master/reports/Final_Report.pdf).
+The final slide deck for this project can be found [here](https://github.com/zkneupper/Instacart-Prediction-Capstone/tree/master/reports/Final_Slide_Deck.pdf), and the final report can be found [here](https://github.com/zkneupper/Instacart-Prediction-Capstone/tree/master/reports/Final_Report.pdf).
 
 ------------
 
