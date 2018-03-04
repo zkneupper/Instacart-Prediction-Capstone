@@ -83,7 +83,7 @@ We then used SQL to transform the dataset to create a new table that we could us
 
 ##### The Index
 
-We created a list of unique pairs of users and products from the `prior` set of orders.  We gave this list the label "`up_pair`" for "user-product pair".  This list list was used as a unique index of our final data table.
+We created a list of unique pairs of users and products from the `prior` set of orders.  We gave this list the label "`up_pair`" for "user-product pair".  This list was used as a unique index of our final data table.
 
 ##### The Target
 
